@@ -37,6 +37,7 @@ public class hw2 {
 
         //System.out.println(Arrays.toString(arrayOfString2));
         System.out.println("'a' зустрічається "+size+ " разів");
+
  }
 
 }
