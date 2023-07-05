@@ -42,7 +42,7 @@ public class hw2 {
         String s1="Completely random text in English. In it, we just need to determine how many times the character ‘a’ occurs there. And we can use the split method and the length method.";
         String s2=s1.toLowerCase();
         String[] arrayOfString2=s2.split("a");
-        int size=arrayOfString2.length;
+        int size=arrayOfString2.length-1;
 
         //System.out.println(Arrays.toString(arrayOfString2));
         System.out.println("'a' зустрічається "+size+ " разів");
