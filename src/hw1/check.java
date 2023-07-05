@@ -1,3 +1,5 @@
+package hw1;
+
 public class check {
     public static void main(String[] args) {
     int a=7;
