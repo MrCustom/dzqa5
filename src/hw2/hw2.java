@@ -17,14 +17,23 @@ public class hw2 {
         // Друга частина завдання
 
     String t1="Testing, is my favourite job";
-    String[] arrayOfString= t1.split(" ");
+    String[] arrayOfString= t1.replace(","," ").split("\\s");
+
         //System.out.println(Arrays.toString(arrayOfString));
         System.out.println(arrayOfString[0]+" "+ arrayOfString[0].length());
-        System.out.println(arrayOfString[1]+" "+ arrayOfString[1].length());
         System.out.println(arrayOfString[2]+" "+ arrayOfString[2].length());
         System.out.println(arrayOfString[3]+" "+ arrayOfString[3].length());
         System.out.println(arrayOfString[4]+" "+ arrayOfString[4].length());
-        System.out.println(arrayOfString[0].length()>arrayOfString[3].length());
+        System.out.println(arrayOfString[5]+" "+ arrayOfString[5].length());
+
+
+        boolean result=arrayOfString[0].length()>arrayOfString[2].length()&&
+                arrayOfString[0].length()>arrayOfString[3].length()&&
+                arrayOfString[0].length()>arrayOfString[4].length()&&
+                arrayOfString[0].length()>arrayOfString[5].length();
+
+        System.out.println(result);
+
 
 
         System.out.println("======================");
